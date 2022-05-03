@@ -6,7 +6,6 @@ public class SumArray {
         int[] arrNew = new int [arr.length];
         for(int i = 0; i < arr.length; i++){
             sum += arr[i];
-
         }
 
         return sum;
