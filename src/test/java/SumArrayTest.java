@@ -48,18 +48,18 @@ public class SumArrayTest {
 
 
     }
-//    @Order(4)
-//    @Test
-//    public void sumArrayZero() {
-//
-//        int[] arr = {};
-//        int expectedResult = 0;
-//
-//        SumArray sa = new SumArray();
-//        int actualResult = sa.sumArray(arr);
-//
-//        Assertions.assertEquals(expectedResult, actualResult);
-//
-//
-//    }
+    @Order(4)
+    @Test
+    public void sumArrayLengthZero() {
+
+        int[] arr = {};
+        int expectedResult = 0;
+
+        SumArray sa = new SumArray();
+        int actualResult = sa.sumArray(arr);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+
+
+    }
 }
